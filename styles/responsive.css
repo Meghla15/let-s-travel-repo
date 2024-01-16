@@ -144,7 +144,11 @@
     }
     .newsletter input{
         padding: 15px;
+        width: 90%;
        
+    }
+    .newsletter button{
+        width: 98%;
     }
     .input-img img{
         margin-top: 60px;

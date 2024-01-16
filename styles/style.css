@@ -119,6 +119,7 @@ main{
     margin-top: 30px;
 }
 .popular-description{
+    text-align: start;
     width: 550px;
     font-size: 14px;
     font-weight: 400;
@@ -182,6 +183,7 @@ main{
     margin: 15px auto;
 }
 .common-description{
+    text-align: start;
     color: gray;
     font-size: 14px;
     font-weight: 400;
@@ -260,6 +262,9 @@ background: rgba(233, 68, 68, 0.05);
 .perfect-place{
     margin-right: 95px;
 }
+..perfect-place p{
+    text-align: start;
+}
 .perfect-place button{
     margin-top: 20px;
 }
@@ -291,6 +296,9 @@ background: rgba(233, 68, 68, 0.05);
     height: 420px;
     border: 1px solid orangered;
     border-radius: 16px;
+ }
+ .newsletter p{
+    text-align: start;
  }
  .input-title{
     font-size: 24px;
