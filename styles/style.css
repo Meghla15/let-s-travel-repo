@@ -31,6 +31,7 @@ span{
     background-color: darkorange;
     color: #FFF;
     text-align: center;
+    cursor: pointer;
 }
 button:hover{
     background-color: chocolate;
@@ -281,7 +282,6 @@ background: rgba(233, 68, 68, 0.05);
     margin-top: 100px;
 }
 
-
 .place-video video{
     height: 90%;
     width: 90%; 
@@ -302,6 +302,7 @@ background: rgba(233, 68, 68, 0.05);
     max-width: 40%;
     height: 420px;
     border: 1px solid orangered;
+    border-radius: 16px;
  }
  .input-title{
     font-size: 24px;
@@ -359,15 +360,19 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .fa-brands {
-    width: 50px;
-    height: 80px;
+    width: 30px;
+    margin-bottom: 30px;
+    
 }
  small{
     margin-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 15px;
+    padding-bottom: 40px;
 } 
  
