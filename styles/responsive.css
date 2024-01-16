@@ -116,6 +116,7 @@
     }
     .common-description{
         width: auto;
+        text-align: start;
     }
     .place {
         display: flex;
