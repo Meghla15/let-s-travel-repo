@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+.hide{
+    display: none;
+}
 *{
     font-family: 'Mulish', sans-serif;
     margin: 0%;
@@ -18,6 +21,19 @@ span{
     color: gray;
     width: 500px;
     margin: 30px auto;
+}
+.btn-primary{
+    width: 170px; 
+    height: 50px; 
+    border: 0;    
+    border-radius: 8px;
+    padding-left: 10px;
+    background-color: darkorange;
+    color: #FFF;
+    text-align: center;
+}
+button:hover{
+    background-color: chocolate;
 }
 .header{
     max-width: 1200px;
@@ -69,30 +85,24 @@ main{
     font-weight: 800;
 }
 .banner-description p{
-    width: 600px;
     font-size: 14px;
     font-weight: 400px;
     margin-top: 5px;
 }
 .input{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    top: 55%;
-    left: 15%; 
+     top: 55%;
+    left: 15%;  
     border-radius: 8px;
     background:rgba(255, 255, 255, 0.30);
     width: 800px;
-    height: 60px;
+    height: 70px;
 }
-.btn-primary{
-    width: 170px; 
-    height: 50px; 
-    border: 0;    
-    border-radius: 8px;
-    padding-left: 10px;
-    background-color: darkorange;
-    color: #FFF;
-    text-align: center;
-}
+
 /* first section  */
 
 /* second-section  */
@@ -195,4 +205,90 @@ main{
     display: flex;
     gap: 15px ;
     margin-bottom: 15px;
+}
+/* fourth-section  */
+.fourth-section{
+    margin-top: 90px;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    gap: 15px;
+}
+.common-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 15px auto;
+}
+.common-description{
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+    width: 480px;
+}
+.hotels{
+    text-align: start;
+    padding: 25px;
+    width: 560px;
+    height: 200px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.services{
+    text-align: start;
+    padding: 25px;
+    width: 560px;
+    height: 200px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.percent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.best-price{
+    margin-top: 15px;
+    text-align: start;
+    padding: 25px;
+    width: 550px;
+    height: 200px;
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+/* sixth-secition  */
+.sixth-section{
+    max-width: 1200px;
+}
+.perfect-place{
+    margin-right: 95px;
+}
+.perfect-place button{
+    margin-top: 20px;
+}
+.place{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+
+.place-video video{
+    height: 90%;
+    width: 90%; 
+    border-radius: 16px;"
+}
+.sea{
+    position: absolute;
+    top: 45%;
+    right: 12%;
+    font-size: 28px;
+    font-weight: 800;
+    color: #FFF;  
 }
