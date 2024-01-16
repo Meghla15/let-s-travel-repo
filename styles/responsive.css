@@ -82,47 +82,25 @@
         width: 100%;
         object-fit: cover;
     }
-   
+    
     .first img {
         width: 90%;
-        margin: 5px auto;
+       margin: 5px 35px;
     }
     .second img {
         width: 90%;
-        margin: 5px auto;
+        margin: 5px 35px;
     }
     .third img {
         width: 90%;
-        margin: 5px auto;
+        margin: 5px 35px;
     }
-    .maldives{
-        top: 16%;
-        left: 33%;
-    }
-    .indonesia {
-        top: 30%;
-        right: 35%;
-    }
-    .srilanka {
-        top: 44%;
-        left: 35%;
-    }
-    .north-south{
-        top: 56%;
-        left: 30%;
-    }
-    .kashmir {
-        top: 70%;
-        left: 38%;
-    }
-    .bangladesh {
-        top: 85%;
-        left: 30%;
-    }
-    .bandarban {
-        top: 96%;
-        right: 33%;
-    }
+   .local-guide{
+    flex-direction: column;
+    align-items: center;
+   }
+   
+    
     .hotels, .services{
         margin: 0 auto;
         padding: 10px;

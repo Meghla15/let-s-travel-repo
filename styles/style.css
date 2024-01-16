@@ -127,88 +127,44 @@ main{
 }
 /* third-section  */
 .third-section{
-    position: relative;
+  
 }
- .destination{
+.destination{
     text-align: center;
     margin-top: 90px;
 }
+.one-img,.two-img,.three-img,.four-img,.five-img,.six-img,.seven-img {
+    position: relative;
+    font-size: 28px;
+    font-weight: 800;
+    color: #FFF;
+}
+ 
+.maldives,.indonesia,.srilanka,.north-south,.kashmir,.bangladesh,.bandarban{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%)
+} 
 
-.maldives{
-    position: absolute;
-    top: 28%;
-    left: 18%;
-    font-size: 28px;
-    font-weight: 800;
-    color: #FFF;
-}
-.indonesia{
-    position: absolute;
-    top: 28%;
-    right: 21%;
-    font-size: 28px;
-    font-weight: 800;
-    color: #FFF;
-}
-.srilanka{
-    position: absolute;
-    top: 55%;
-    left: 11%;
-    font-size: 28px;
-    font-weight: 800;
-    color: #FFF; 
-}
-.north-south{
-    position: absolute;
-    top: 55%;
-    left: 45%;
-    font-size: 28px;
-    font-weight: 800;
-    color: #FFF;
-}
-.kashmir{
-    position: absolute;
-    top: 55%;
-    left: 80%;
-    font-size: 28px;
-    font-weight: 800;
-    color: #FFF;
-}
-.bangladesh{
-    position: absolute;
-    top: 85%;
-    left: 13%;
-    font-size: 28px;
-    font-weight: 800;
-    color: #FFF;
-}
-.bandarban{
-    position: absolute;
-    top: 85%;
-    right: 25%;
-    font-size: 28px;
-    font-weight: 800;
-    color: #FFF;
-
-}
 .first img{
     width: 570px;
     height: 300px;
-}
+} 
 .first{
     display: flex;
-     margin-bottom: 15px;
+     margin-bottom: 12px;
     gap: 15px;
 }
 .second{
     display: flex;
     gap: 15px ;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 .third{
     display: flex;
     gap: 15px ;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 /* fourth-section  */
 .fourth-section{
@@ -265,7 +221,39 @@ main{
 border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
 }
-/* sixth-secition  */
+/* unique section  */
+.unique-section{
+    margin-top: 100px;
+}
+.unique-section h2, p{
+    text-align: center;
+}
+  .unique-section div img{
+    margin: 15PX 35px;
+    width: 230px;
+    height: 210px;
+    object-fit: cover;
+  }
+  .local-guide{
+    display: flex;
+   justify-content: space-evenly;
+    gap: 20px;
+  }
+
+  .guide-one, .guide-two,.guide-three{
+    width: 300px;
+    height: 350px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+
+  }
+ 
+  .guide-one-img,.guide-two-img,.guide-three-img{
+    padding: 15px;
+  }
+ 
+/* sixth-section  */
 .sixth-section{
     max-width: 1200px;
 }
