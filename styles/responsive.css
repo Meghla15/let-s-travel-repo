@@ -2,12 +2,21 @@
 @media screen and (max-width:600px) {
     
     .navigation-bar, 
-    .items-container,
     .input,
     .second-section,
     .first, .second, .third,
-    .flex            {
+    .flex, .place, .newsletter          {
         flex-direction: column;
+    }
+    .items-container a{
+        display: none;
+    }
+    .items-container img{
+        display: block;
+    }
+    .navigation-bar{
+        display: flex;
+        flex-direction: row;
     }
     .section-title{
         font-size: 24px;
@@ -16,8 +25,9 @@
     .section-description{
         font-size: 14px;
         font-weight: 400;
-        width: auto;
+        width:auto;
         padding: 18px;
+        margin-top: 10px;
         
     }
     .navigation-bar{
@@ -128,5 +138,54 @@
     }
     .common-description{
         width: auto;
+    }
+    .place {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 15px;
+        margin-top: 50px;
+    }
+    .perfect-place > ul> li{
+        font-size: 14px;
+        font-weight: 800;
+    }
+    .perfect-place button{
+        margin-bottom: 10px;
+    }
+    .sea{
+        display: none;
+    }
+    .place-video video{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .newsletter{
+        max-width: 90%;
+        height: 350px;
+        margin: 0 auto;
+    }
+    .newsletter input{
+        padding: 15px;
+       
+    }
+    .input-img img{
+        margin-top: 40px;
+        width: 100%; 
+        height: 100%;
+    }
+    .input-img button{
+        width: 150px;
+        height: 80px;
+        position: absolute;
+       top: 316px;
+       font-size: 18px;
+    }
+    .travel{
+        font-size: 14px;
+    }
+    footer{
+        margin-top: 450px;
     }
 }
